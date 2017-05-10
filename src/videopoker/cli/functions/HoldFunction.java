@@ -2,7 +2,7 @@ package videopoker.cli.functions;
 
 import videopoker.model.GameManager;
 
-public class HoldFunction implements Function{
+public final class HoldFunction implements Function{
 
 	private GameManager gameManager;
 	

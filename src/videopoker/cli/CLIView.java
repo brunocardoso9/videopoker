@@ -1,6 +1,7 @@
 package videopoker.cli;
 
 import videopoker.model.GameManager;
+import videopoker.model.HandInformation;
 
 public class CLIView {
 	public void printCredits(){
@@ -8,6 +9,6 @@ public class CLIView {
 	}
 	
 	public void printStats(GameManager gm){
-		String x = gm.getStats();
+		int royalFlushCount = gm.getStats().get(HandInformation.ROYAL_FLUSH_NAME);
 	}
 }
