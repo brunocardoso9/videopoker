@@ -10,8 +10,4 @@ public class StatisticsManager {
 		statistics.put(handName, ++value);
 	}
 	
-	public int getHandCount(String handName){
-		return statistics.get(handName);	
-	}
-	
 }
